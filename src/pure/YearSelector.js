@@ -44,7 +44,6 @@ export default class YearSelector extends Component {
       })
     }
   }
-//           itemStyle={(String(this.state.selectedYear === String(this.state.years)) ? styles.pickerItemStyle: styles.pickerItemSelectedStyle}>
 
   _generateYears (minDate, maxDate) {
     let years = {}
